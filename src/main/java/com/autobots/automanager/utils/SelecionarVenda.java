@@ -2,8 +2,10 @@ package com.autobots.automanager.utils;
 
 import java.util.List;
 
-import com.autobots.automanager.entitades.Venda;
+import org.springframework.stereotype.Component;
 
+import com.autobots.automanager.entitades.Venda;
+@Component
 public class SelecionarVenda implements Selecionador<Venda, Long> {
     
     @Override
